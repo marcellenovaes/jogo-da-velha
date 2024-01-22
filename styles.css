@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        90deg,
+       rgba(227, 177, 210, 1) 0%,
+       rgba(177, 156, 217, 1) 100%
+    );
+    /* o background linear gradient + 90 deg deixa um gradiente mais suave*/
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.jogo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.jogo button{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 60px;
+}
+
